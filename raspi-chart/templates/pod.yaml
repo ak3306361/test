@@ -4,7 +4,7 @@ metadata:
   name: raspi-pod
 spec:
   containers:
-    - name: my-container
+    - name: raspi-container
       image: k3306361/20230424-complete-demo-image
       command:
         - sleep
