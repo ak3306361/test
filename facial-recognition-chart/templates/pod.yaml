@@ -4,7 +4,7 @@ metadata:
   name: facial-recognition-pod
 spec:
   containers:
-    - name: my-container
+    - name: -container
       image: k3306361/facial_recognition
       command:
         - sleep
