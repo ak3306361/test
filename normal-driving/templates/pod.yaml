@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: normal-driving-container
-      image: k3306361/normal-driving
+      image: k3306361/normal_driving
       command:
         - sleep
         - infinity
