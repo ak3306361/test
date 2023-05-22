@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: raspi-pod
+  name: driving-stop-pod
 spec:
   containers:
-    - name: my-container
+    - name: driving-stop-container
       image: k3306361/driving_stop
       command:
         - sleep
