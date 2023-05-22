@@ -1,0 +1,4 @@
+apiVersion: v2
+name: driving-stop-chart
+version: 0.1.0
+description: Stop when an obstacle is detected

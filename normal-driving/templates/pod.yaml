@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: normal-driving-pod
+spec:
+  containers:
+    - name: my-container
+      image: k3306361/normal-driving
+      command:
+        - sleep
+        - infinity
+      securityContext:
+        privileged: true
+        capabilities:
+          add:
+            - SYS_RAWIO
+            - SYS_I2C
+            - SYS_ADMIN
