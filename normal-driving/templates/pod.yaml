@@ -4,7 +4,7 @@ metadata:
   name: normal-driving-pod
 spec:
   containers:
-    - name: my-container
+    - name: normal-driving-container
       image: k3306361/normal-driving
       command:
         - sleep
