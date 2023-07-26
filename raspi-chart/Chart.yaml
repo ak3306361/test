@@ -1,0 +1,4 @@
+apiVersion: v2
+name: raspi-chart
+version: 0.1.0
+description: A pod with raspberry pi OS legacy installed to run AGV

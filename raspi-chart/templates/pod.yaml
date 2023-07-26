@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: raspi-pod
+spec:
+  containers:
+    - name: raspi-container
+      image: k3306361/20230424-complete-demo-image
+      command:
+        - sleep
+        - infinity
+      securityContext:
+        privileged: true
+        capabilities:
+          add:
+            - SYS_RAWIO
+            - SYS_I2C
+            - SYS_ADMIN

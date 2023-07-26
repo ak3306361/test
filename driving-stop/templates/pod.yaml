@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: driving-stop-pod
+spec:
+  containers:
+    - name: driving-stop-container
+      image: k3306361/driving_stop
+      command:
+        - sleep
+        - infinity
+      securityContext:
+        privileged: true
+        capabilities:
+          add:
+            - SYS_RAWIO
+            - SYS_I2C
+            - SYS_ADMIN
