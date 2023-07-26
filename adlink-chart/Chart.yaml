@@ -1,4 +1,4 @@
 apiVersion: v2
-name: adlink-recognition
+name: adlink-camera
 version: 0.1.0
 description: Send an image by email when a face is detected. adlink
