@@ -1,0 +1,4 @@
+apiVersion: v2
+name: facial-recognition
+version: 0.1.0
+description: Send an image by email when a face is detected
