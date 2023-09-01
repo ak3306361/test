@@ -1,0 +1,4 @@
+apiVersion: v2
+name: adlink-monitor
+version: 0.1.0
+description: Detect a face and recommend dishes the person has ordered in the past. adlink
